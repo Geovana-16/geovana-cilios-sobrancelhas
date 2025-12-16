@@ -1,217 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <title>Geovana Cílios & Sobrancelhas</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
 <style>
-:root{
-  --dourado:#C7A45D;
-  --rosa:#F6EFE9;
-  --texto:#7A4A42;
-}
-
-body{
-  margin:0;
-  font-family:'Playfair Display', serif;
-  background:linear-gradient(180deg,#F6EFE9,#FAF7F4);
-  color:var(--texto);
-  text-align:center;
-}
-
-/* HEADER */
-header{
-  padding:60px 20px 40px;
-}
-
-h1{
-  font-family:'Great Vibes', cursive;
-  font-size:56px;
-  margin:0;
-}
-
-.subtitle{
-  color:#B48C83;
-  margin-top:8px;
-  font-size:18px;
-  line-height:1.5;
-}
-
-.btn-main{
-  margin-top:30px;
-  display:inline-flex;
-  align-items:center;
-  gap:10px;
-  padding:14px 34px;
-  background:linear-gradient(135deg,#D9B36A,#B8934E);
-  color:#fff;
-  border-radius:40px;
-  text-decoration:none;
-  font-size:16px;
-  box-shadow:0 10px 25px rgba(199,164,93,0.4);
-}
-
-/* TITULOS */
-.section-title{
-  margin:50px 0 30px;
-  font-size:28px;
-  letter-spacing:1px;
-}
-
-/* SERVIÇOS */
-.services-container{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:30px;
-  max-width:1100px;
-  margin:0 auto;
-  padding:0 20px 50px;
-}
-
-.service{
-  background:#fff;
-  padding:18px;
-  border-radius:24px;
-  box-shadow:0 18px 35px rgba(0,0,0,0.08);
-  transition:transform .2s, box-shadow .2s;
-}
-
-.service:hover{
-  transform:translateY(-4px);
-  box-shadow:0 22px 45px rgba(0,0,0,0.12);
-}
-
-.service img{
-  width:100%;
-  aspect-ratio:1/1;
-  object-fit:cover;
-  border-radius:18px;
-  margin-bottom:15px;
-}
-
-.service h3{
-  margin:5px 0;
-  font-size:21px;
-}
-
-.price{
-  color:var(--dourado);
-  font-size:19px;
-  font-weight:600;
-}
-
-.service p{
-  color:#B48C83;
-  font-size:14px;
-  margin:8px 0 18px;
-}
-
-.btn{
-  display:inline-block;
-  padding:12px 28px;
-  background:var(--dourado);
-  color:#fff;
-  border-radius:30px;
-  text-decoration:none;
-  font-size:15px;
-}
-
-/* CONTATO */
-.contact-links{
-  display:flex;
-  gap:18px;
-  justify-content:center;
-  flex-wrap:wrap;
-  padding-bottom:50px;
-}
-
-footer{
-  font-size:14px;
-  color:#B48C83;
-  padding-bottom:20px;
-}
+body{margin:0;font-family:'Playfair Display',serif;background:#F6EFE9;color:#8B5E57;text-align:center}
+header{padding:40px 20px}
+h1{font-family:'Great Vibes',cursive;font-size:48px;margin:0}
+.subtitle{color:#C9A39A;margin-top:5px;font-size:18px}
+.section-title{margin:40px 0 20px;font-size:26px}
+.services-container{display:flex;flex-wrap:wrap;justify-content:center;gap:30px;padding:0 20px}
+.service{background:#fff;padding:20px;width:300px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.08)}
+.service img{width:100%;border-radius:15px;aspect-ratio:1/1;object-fit:cover}
+.btn{display:inline-block;padding:12px 26px;background:#C7A45D;color:#fff;text-decoration:none;border-radius:30px;margin-top:10px}
 </style>
 </head>
-
 <body>
-
 <header>
-  <h1>Geovana</h1>
-  <div class="subtitle">
-    Cílios & Sobrancelhas<br>
-    Atendimento a domicílio • Macapá e Santana
-  </div>
-
-  <a class="btn-main" href="https://wa.me/559691685603" target="_blank">
-    <i class="fab fa-whatsapp"></i> Agende seu horário
-  </a>
+<h1>Geovana</h1>
+<div class="subtitle">Cílios & Sobrancelhas<br>Atendimento a domicílio</div>
 </header>
-
 <div class="section-title">✨ Serviços & Valores</div>
-
 <div class="services-container">
-
-  <div class="service">
-    <img src="fotos/imagem1.jpg">
-    <h3>Volume Brasileiro</h3>
-    <div class="price">R$ 100</div>
-    <p>Efeito elegante e marcante</p>
-    <a class="btn" href="https://wa.me/559691685603">Agendar</a>
-  </div>
-
-  <div class="service">
-    <img src="fotos/imagem2.jpg">
-    <h3>Efeito Rímel</h3>
-    <div class="price">R$ 120</div>
-    <p>Natural e sofisticado</p>
-    <a class="btn" href="https://wa.me/559691685603">Agendar</a>
-  </div>
-
-  <div class="service">
-    <img src="fotos/imagem3.jpg">
-    <h3>Volume Russo</h3>
-    <div class="price">R$ 130</div>
-    <p>Volume intenso e luxuoso</p>
-    <a class="btn" href="https://wa.me/559691685603">Agendar</a>
-  </div>
-
-  <div class="service">
-    <img src="fotos/imagem4.jpg">
-    <h3>Volume Egípcio</h3>
-    <div class="price">R$ 100</div>
-    <p>Moderno e exclusivo</p>
-    <a class="btn" href="https://wa.me/559691685603">Agendar</a>
-  </div>
-
-  <div class="service">
-    <img src="fotos/imagem5.jpg">
-    <h3>Clássico Fio a Fio</h3>
-    <div class="price">R$ 90</div>
-    <p>Leve, natural e delicado</p>
-    <a class="btn" href="https://wa.me/559691685603">Agendar</a>
-  </div>
-
+<div class="service">
+<img src="fotos/imagem1.jpg?v=1">
+<h3>Volume Brasileiro</h3>
+<div class="price">R$ 100</div>
+<a class="btn" href="https://wa.me/559691685603?text=Olá%20Geovana,%20gostaria%20de%20agendar%20o%20serviço%20Volume%20Brasileiro.%20Pode%20me%20informar%20os%20horários%20disponíveis?" target="_blank">Agendar</a>
 </div>
-
+<div class="service">
+<img src="fotos/imagem2.jpg?v=1">
+<h3>Efeito Rímel</h3>
+<div class="price">R$ 120</div>
+<a class="btn" href="https://wa.me/559691685603?text=Olá%20Geovana,%20gostaria%20de%20agendar%20o%20serviço%20Efeito%20Rímel.%20Pode%20me%20informar%20os%20horários%20disponíveis?" target="_blank">Agendar</a>
+</div>
+<div class="service">
+<img src="fotos/imagem3.jpg?v=1">
+<h3>Volume Russo</h3>
+<div class="price">R$ 130</div>
+<a class="btn" href="https://wa.me/559691685603?text=Olá%20Geovana,%20gostaria%20de%20agendar%20o%20serviço%20Volume%20Russo.%20Pode%20me%20informar%20os%20horários%20disponíveis?" target="_blank">Agendar</a>
+</div>
+<div class="service">
+<img src="fotos/imagem4.jpg?v=1">
+<h3>Volume Egípcio</h3>
+<div class="price">R$ 100</div>
+<a class="btn" href="https://wa.me/559691685603?text=Olá%20Geovana,%20gostaria%20de%20agendar%20o%20serviço%20Volume%20Egípcio.%20Pode%20me%20informar%20os%20horários%20disponíveis?" target="_blank">Agendar</a>
+</div>
+<div class="service">
+<img src="fotos/imagem5.jpg?v=1">
+<h3>Clássico Fio a Fio</h3>
+<div class="price">R$ 90</div>
+<a class="btn" href="https://wa.me/559691685603?text=Olá%20Geovana,%20gostaria%20de%20agendar%20o%20serviço%20Clássico%20Fio%20a%20Fio.%20Pode%20me%20informar%20os%20horários%20disponíveis?" target="_blank">Agendar</a>
+</div>
+</div>
 <div class="section-title">📞 Contato</div>
-
-<div class="contact-links">
-  <a class="btn" style="background:#57AA63" href="https://wa.me/559691685603">
-    <i class="fab fa-whatsapp"></i> WhatsApp
-  </a>
-
-  <a class="btn" style="background:#8B5E57" href="https://www.instagram.com/geovana_geovana0?igsh=d2FpMGd0MW8yazdm">
-    <i class="fab fa-instagram"></i> Instagram
-  </a>
-</div>
-
-<footer>
-  © Geovana Cílios & Sobrancelhas
-</footer>
-
+<a class="btn" href="https://wa.me/559691685603" target="_blank">Dúvidas e Agendamentos</a>
+<a class="btn" href="https://www.instagram.com/geovana_geovana0?igsh=d2FpMGd0MW8yazdm" target="_blank">Conheça meu trabalho</a>
 </body>
   </html>
